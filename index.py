@@ -31,7 +31,7 @@ while True:
 
     elif opcion == 3:
         print("Contactos agregados")
-        for clave,valor in agenda.items:
+        for clave,valor in agenda.items():
             print(f"Nombre: {clave}, Telefono: {valor}")
     
     elif opcion == 4:
